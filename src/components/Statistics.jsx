@@ -44,7 +44,11 @@ const Percentage = styled.span`
   font-size: 15px;
   text-align: center;
 `;
-
+const getRandomColor = () =>{
+    return (
+        '#' + (Math.random().toString(16) + '000000').substring(2, 8).toUpperCase()
+    )
+}
 const Statistics = ({ title, stats }) => {
     return (
      <Section>
@@ -64,9 +68,5 @@ Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.array,
 };
-function getRandomColor() {
-    return (
-        '#' + (Math.random().toString(16) + '000000').substring(2, 8).toUpperCase()
-    )
-}
+
 export default Statistics;

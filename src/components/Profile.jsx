@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const Container = styled.div`
   background-color: #fff;
-  margin: 0px auto;
+  margin: 20px auto;
   width: 300px;
   justify-content: center;
   border-radius: 7px;

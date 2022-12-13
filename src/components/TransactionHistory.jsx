@@ -21,6 +21,8 @@ const Tablerow = styled.tr`
 `;
 
 
+
+
 const TransactionHistory = ({ items }) => {
     return (
         <Transaction>

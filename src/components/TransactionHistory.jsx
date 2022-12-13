@@ -19,10 +19,6 @@ const Tablerow = styled.tr`
     background-color: #cfe0e8;
   }
 `;
-
-
-
-
 const TransactionHistory = ({ items }) => {
     return (
         <Transaction>

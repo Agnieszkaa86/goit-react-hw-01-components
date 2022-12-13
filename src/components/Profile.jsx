@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const Container = styled.div`
   background-color: #fff;
   margin: 20px auto;
-  width: 300px;
+  width: 350px;
   justify-content: center;
   border-radius: 7px;
   box-shadow: 0 0 6px 0 #adacac;

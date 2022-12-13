@@ -6,7 +6,7 @@ import FriendListItem from './FriendListItem';
 const List = styled.ul`
   width: 100%;
   margin: 0;
-  padding: 30px;
+  padding: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
